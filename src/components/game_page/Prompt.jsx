@@ -16,7 +16,6 @@ export default function Prompt({ selectedDish, clickedItem, currentStep, setCurr
         const nextItem = dish[currentStep + 1]
         const isStartStep = currentItem.name === "start"
         const isFinalStep = currentItem.name === dish[dish.length - 2].name
-        //const isFinalStep = currentItem.name === "finish"
 
         if (isStartStep) {
             setOutPut(currentItem.message)

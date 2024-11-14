@@ -37,10 +37,3 @@ export default function MenuPage() {
     )
 }
 
-
-//  export function capturingDish(event) {
-//     let name = event.target.alt
-//     console.log(name);
-    
-//     return name
-// }
