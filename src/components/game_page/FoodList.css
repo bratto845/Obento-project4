@@ -1,0 +1,72 @@
+.food-item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+    padding: 20px;
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.food-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    overflow: hidden; 
+    text-align: center; 
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.3s ease; 
+    z-index: 1;
+    position: relative;
+}
+
+.food-item:hover {
+    transform: translateY(-5px); 
+}
+
+.food-item header h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.food-item img {
+    width: 80%; 
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+}
+
+.food-item footer {
+    text-align: right; 
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.food-item footer .english-translation {
+    font-size: 0.875rem;
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+.food-item footer .english-translation:hover {
+    color: #16a085; 
+}
+
+@media (max-width: 768px) {
+    .food-item {
+        flex: 1 1 calc(50% - 20px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .food-item {
+        flex: 1 1 calc(100% - 20px); 
+    }
+}

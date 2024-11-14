@@ -1,0 +1,132 @@
+{
+    "Katsu Curry": [
+        {
+            "name": "start",
+            "message": "カツカレーをつくろう！"
+        },
+        {
+            "name": "rice",
+            "message": "まず、ごはんをくわえます。"
+        },
+        {
+            "name": "curry",
+            "message": "つぎにカレーをくわえます"
+        },
+        {
+            "name": "vegtables",
+            "message": "つぎにやさいをくわえます"
+        },
+        {
+            "name": "katsu",
+            "message": "さいごにカツをくわえます。"
+        },
+        {
+            "name": "finish",
+            "message": "すばらしい！カツカレーをつくりました！"
+        }
+    ],
+    "Chicken Nanban": [
+        {
+            "name": "start",
+            "message": "チキンナンバンをつくろう！"
+        },
+        {
+            "name": "rice",
+            "message": "まず、ごはんをくわえます。"
+        },
+        {
+            "name": "fried chicken",
+            "message": "つぎにからあげをくわえます。"
+        },
+        {
+            "name": "tarter sauce",
+            "message": "つぎにタルタルソースをくわえます。"
+        },
+        {
+            "name": "salad",
+            "message": "さいごにサラダをくわえます。"
+        },
+        {
+            "name": "finish",
+            "message": "すばらしい！チキンナンバンをつくりました！"
+        }
+    ],
+    "Sushi": [
+        {
+            "name": "start",
+            "message": "おすしをつくろう！"
+        },
+        {
+            "name": "rice",
+            "message": "まず、ごはんをくわえます。"
+        },
+        {
+            "name": "raw fish",
+            "message": "つぎにさかなをくわえます。"
+        },
+        {
+            "name": "wasabi",
+            "message": "つぎにわさびをくわえます。"
+        },
+        {
+            "name": "soy sauce",
+            "message": "さいごにしょうゆをくわえます。"
+        },
+        {
+            "name": "finish",
+            "message": "すばらしい！おすしをつくりました！"
+        }
+    ],
+    "Yakisoba": [
+        {
+            "name": "start",
+            "message": "やきそばをつくろう！"
+        },
+        {
+            "name": "noodles",
+            "message": "まず、めんをくわえます。"
+        },
+        {
+            "name": "cabbage",
+            "message": "つぎにキャベツをくわえます。"
+        },
+        {
+            "name": "pork",
+            "message": "つぎにぶたにくをくわえます。"
+        },
+        {
+            "name": "oyster sauce",
+            "message": "さいごにオイスターソースをくわえます。"
+        },
+        {
+            "name": "finish",
+            "message": "すばらしい！やきそばをつくりました！"
+        }
+    ],
+    "Ramen": [
+        {
+            "name": "start",
+            "message": "ラーメンをつくろう！"
+        },
+        {
+            "name": "noodles",
+            "message": "まず、めんをくわえます。"
+        },
+        {
+            "name": "broth",
+            "message": "つぎにスープをくわえます。"
+        },
+        {
+            "name": "egg",
+            "message": "つぎにたまごをくわえます。"
+        },
+        {
+            "name": "pork",
+            "message": "さいごにぷたにくをくわえます。"
+        },
+        {
+            "name": "finish",
+            "message": "すばらしい！ラーメンをつくりました！"
+        }
+    ]
+}

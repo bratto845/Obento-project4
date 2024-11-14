@@ -1,0 +1,54 @@
+.game-page{
+    background: linear-gradient(to right, #ddc6a5, #faf3d5); 
+}
+
+.main-game-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; 
+    padding: 20px;
+    top: -50%;
+    justify-content: space-between; 
+    gap: 30px;
+}
+
+.word-list {
+    width: 30%;
+    padding: 20px;
+    background-color: #e8f5e9; 
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-top: -150px;
+    max-width: 300px;
+    max-height: 800px;
+}
+
+.madeDish {
+    margin-top: -150px;
+    width: 65%; 
+    padding: 20px;
+    max-width: 800px;
+    min-width: 400px;
+    max-height: 800px;
+    margin-right: 5%;
+    background-color: #e8f5e9; 
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.word-list h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+h2, p {
+    margin: 0;
+    padding: 10px 0;
+    font-family: 'Arial', sans-serif;
+}
+

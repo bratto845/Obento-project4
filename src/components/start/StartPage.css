@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackside+One&display=swap" rel="stylesheet');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.welcome-message {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 1;
+    text-align: center;
+}
+
+.welcome-message h1 {
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 130px;
+    margin-bottom: 10px;
+    text-shadow: 12px 12px 60px rgba(144, 238, 144, 1), 0 0 120px rgba(144, 238, 144, 0.9), 0 0 180px rgba(144, 238, 144, 0.8);
+}
+
+.welcome-message p {
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    margin-top: -30px;
+    text-shadow: 12px 12px 60px rgba(144, 238, 144, 1), 0 0 120px rgba(144, 238, 144, 0.9), 0 0 180px rgba(144, 238, 144, 0.8);
+}
+
+.welcome-message button {
+    --b: 2px;
+    /* border thickness */
+    --s: .6em;
+    /* size of the corner */
+    --color: rgba(144, 238, 144, 0.8);
+
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: white;
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 30px;
+
+    border: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.welcome-message button:hover,
+.welcome-message button:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.welcome-message button:active {
+    background: var(--color);
+    color: #fff;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 0;
+}
