@@ -1,8 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Project 4 - Obento
+------------------------------------
+https://lets-make-obento.netlify.app
+---------------------------------------
+Obetno is an Educational game application that facilitates language aquisition. Game is designed to help English language speakers to practice their reading, grammar and vocabulary in the target language. In this case, the target language is Japanese. Obento is an interactive game where users can choose a traditional dish that they would like to make and create it in the main game page while practicing the vocabulary for each item and also practicing command and sequential language for making the dish itself. All the game is visually pleasing and allowing students a fun opportunity to fine-tune their skills it's also teaching them about traditional dishes that they may see and what are the main components of those dishes. This project was designed to assess the skills of each student in the General Sssembly Software Engineering Intensive course where we display all the skills we have acquired throughout the course in a capstone project. 
