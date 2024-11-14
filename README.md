@@ -33,3 +33,27 @@ Obetno is an Educational game application that facilitates language aquisition. 
 # The main game page
 ![Alt text](/src/assets/gamepage.gif)
 
+-----------------------------------
+
+## The Future of Obento
+
+- Add the ability to change the level of difficulty of Japanese (N5-N1)
+- Add features to change the users mother language (English or Spanish)
+- Apply drag and drop to the main game page
+- Create a more detailed animation of food
+- Add more ingredients to add to each Obento
+- precisely be able to add each food item into specific compartments in the box
+- overall increasing the accuracy of the game page itself and making it more interactive
+-----------------------------------------
+
+## Bugs
+- The wrong error message is finiky
+- Needs smoother transition for multiple elements
+
+
+
+
+
+
+
+
